@@ -1,0 +1,13 @@
+[programs.devnet]
+shadok = "6Q8hrQ4WMAFTNoM6QWq2tp6ePWA8hERbg9R3mjmNa64g"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/yourUserHere/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/**/*.js"
+
